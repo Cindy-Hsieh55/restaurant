@@ -32,10 +32,10 @@ cd restaurantList
 在 Terminal 輸入 npm install 指令
 ```
 
-4. 安裝 nodemon 套件
+4. 若尚未安裝，請安裝 nodemon 套件
 
 ```
-在 Terminal 輸入 nodemon app.js 指令
+在 Terminal 輸入 npm install -g nodemon 指令
 ```
 
 5. 匯入種子檔案
@@ -57,7 +57,7 @@ User and Restaurant data get done!
 6. 啟動伺服器，執行 app.js 檔案
 
 ```
-nodemon app.js
+npm run dev
 ```
 
 7. 當 terminal 出現以下字樣，表示伺服器已啟動並成功連結
@@ -67,4 +67,4 @@ The Express server is running on http://localhost:3000
 
 ```
 
-現在，你可開啟任一瀏覽器瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 開始使用「一網在手，美食無窮」囉！歡迎使用官方測試帳號操作。
+現在，你可開啟任一瀏覽器瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 開始使用「一網在手，美食無窮」的美食網站囉！
