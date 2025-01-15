@@ -4,6 +4,12 @@
 
 ## Views - 專案畫面
 
+1. 首頁
+![image](https://github.com/Cindy-Hsieh55/restaurant/blob/main/public/img/homePage.png)
+2. 餐廳資訊
+![image](https://github.com/Cindy-Hsieh55/restaurant/blob/main/public/img/restaurantInfo.png)
+3. 搜尋畫面
+![image](https://github.com/Cindy-Hsieh55/restaurant/blob/main/public/img/searchPage.png)
 
 ## Features - 產品功能
 
