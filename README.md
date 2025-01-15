@@ -2,6 +2,9 @@
 
 一個使用 Node.js + Express 打造的餐廳美食網站，管理自己的餐廳清單，如新增、修改、刪除餐廳資料等功能，並且可依照餐廳名稱與類別進行搜尋，也依照不同的條件排序餐廳資料。
 
+## Views - 專案畫面
+
+
 ## Features - 產品功能
 
 1. 使用者可以在首頁瀏覽餐廳評分、類別
@@ -38,32 +41,16 @@ cd restaurantList
 在 Terminal 輸入 npm install -g nodemon 指令
 ```
 
-5. 匯入種子檔案
-
-```
-在 Terminal 找到 Seeder.js 檔案
-
-執行 node models/seeds/Seeder.js 匯入使用者與餐廳資料
-```
-
-當 terminal 出現以下字樣，即表示種子資料已新增至資料庫，按下 ctrl + c 結束執行
-
-```
-Mongodb is connected!
-
-User and Restaurant data get done!
-```
-
-6. 啟動伺服器，執行 app.js 檔案
+5. 啟動伺服器，執行 app.js 檔案
 
 ```
 npm run dev
 ```
 
-7. 當 terminal 出現以下字樣，表示伺服器已啟動並成功連結
+6. 當 terminal 出現以下字樣，表示伺服器已啟動並成功連結
 
 ```
-The Express server is running on http://localhost:3000
+express server is running on http://localhost:3000
 
 ```
 
