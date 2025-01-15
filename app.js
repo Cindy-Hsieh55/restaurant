@@ -21,8 +21,9 @@ app.get('/restaurants', (req, res) => {
 
 // 動態路由
 app.get('/restaurants/:id', (req, res) => {
-  const id = req.params.id
-  res.send(`read restaurant: ${id}`)
+  const id = req.params.id //字串
+  const restaurant = restaurants.find((rest) => rest.id.toString() === id)
+  res.render('detail', {restaurant})
 })
 
 app.listen(port, () => {
